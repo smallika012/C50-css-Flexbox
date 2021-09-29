@@ -1,0 +1,37 @@
+
+h1 {
+    color: rgb(165, 42, 144);
+    
+}
+
+ 
+
+
+
+.header{
+    display : flex;
+   background-color: cadetblue;
+   justify-content: space-between;
+}
+/*.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}*/
+.grid{
+    display : flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    
+}
+.item{
+    align-self : flex-end;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+
+}
+h2,h3{
+    text-align: center;
+}
